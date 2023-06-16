@@ -23,6 +23,6 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v4
         with:
-          context: ./dockerfiles
+          context: ./dockerfiles/
           push: true
           tags: albertcintas/simplepython:latest
